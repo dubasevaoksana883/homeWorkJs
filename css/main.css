@@ -1,3 +1,59 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work {
+  display: flex;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+h1 {
+  font-family: 'Satisfy', cursive;
+  color: #563006;
+  text-align: center;
+}
 h2 {
   text-align: center;
+
+}
+.menu {
+  border: 1px solid #f4e6d7;
+  width: 210px;
+  box-shadow: 0 0 10px #f4e6d7, 0 0 15px rgb(244, 214, 181);
+  border-radius: 25px;
+  align-self: flex-start;
+}
+.btn {
+  width: 150px;
+  padding: 5px 2px 5px 15px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px #fff, 0 0 15px #fff;
+  border-radius: 25px;
+  margin: 20px;
+  background: linear-gradient(rgba(192, 172, 141, 0.5), rgba(254, 233, 209, 0.5));
+  color: #563006;
+  font-family: 'Satisfy', cursive;
+}
+.block-content {
+  border: 1px solid #f4e6d7;
+  box-shadow: 0 0 10px #f4e6d7, 0 0 15px rgb(244, 214, 181);
+  border-radius: 25px;
+  width: 100%;
+  height: 80vh;
+  margin-left: 50px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.homeWork {
+  width: 100%;
+}
+.homeWork img {
+  max-width: 100%;
 }
