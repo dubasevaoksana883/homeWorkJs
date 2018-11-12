@@ -19,10 +19,6 @@ h1 {
   color: #563006;
   text-align: center;
 }
-h2 {
-  text-align: center;
-
-}
 .menu {
   border: 1px solid #f4e6d7;
   width: 210px;
@@ -50,10 +46,4 @@ h2 {
   margin-left: 50px;
   overflow: scroll;
   overflow-x: hidden;
-}
-.homeWork {
-  width: 100%;
-}
-.homeWork img {
-  max-width: 100%;
 }
